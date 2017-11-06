@@ -38,3 +38,18 @@ ul {
 	justify-content: flex-start;
 	margin-left: 7vw;
 }
+
+.hide {
+	display: none;
+	height: 80px;
+	width: 80px;
+}
+
+@media (max-width: 950px) {
+	.header-right {
+		display: none;
+	}
+	.hide {
+		display: inline;
+	}
+}
