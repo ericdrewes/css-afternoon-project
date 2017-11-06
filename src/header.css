@@ -2,17 +2,19 @@ ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	margin: 5px;
 }
 
 .navbar {
 	margin: 10px;
 	font-size: 16px;
-	font-weight: bold;
 	color: white;
+	font-family: helvetica, sans-serif;
+	padding-right: 10px;
 }
 
 .header {
-	padding-top: 5%;
+	padding-top: 3vh;
 	vertical-align: middle;
 	width: 100vw;
 	height: 15vh;
@@ -23,6 +25,7 @@ ul {
 .header-right {
 	height: 15vh;
 	width: 50vw;
+	margin-right: 7vw;
 }
 
 .header-left {
@@ -33,5 +36,5 @@ ul {
 	color: #fed136;
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 5vw;
+	margin-left: 7vw;
 }
