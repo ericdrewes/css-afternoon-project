@@ -5,17 +5,18 @@ import './header.css';
 export default class Header extends Component {
 	render() {
 		return (
-			<div className="header">
-				<nav>
+			<nav className="header">
+				<div className="header-left">Start Bootstrap</div>
+				<div className="header-right">
 					<ul>
-						<li>SERVICES</li>
-						<li>PORTFOLIO</li>
-						<li>ABOUT</li>
-						<li>TEAM</li>
-						<li>CONTACT</li>
+						<div className="navbar">SERVICES</div>
+						<div className="navbar">PORTFOLIO</div>
+						<div className="navbar">ABOUT</div>
+						<div className="navbar">TEAM</div>
+						<div className="navbar">CONTACT</div>
 					</ul>
-				</nav>
-			</div>
+				</div>
+			</nav>
 		);
 	}
 }

@@ -7,7 +7,11 @@ class App extends Component {
 		return (
 			<div className="App">
 				<Header />
-				<img src="https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg" />
+				<div className="intro-text">
+					<div className="intro-one">Welcome To Our Studio!</div>
+					<div className="intro-two">IT IS NICE TO MEET YOU</div>
+					<div className="intro-button">TELL ME MORE</div>
+				</div>
 			</div>
 		);
 	}

@@ -4,6 +4,34 @@ ul {
 	justify-content: flex-end;
 }
 
-li {
+.navbar {
 	margin: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+.header {
+	padding-top: 5%;
+	vertical-align: middle;
+	width: 100vw;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-right {
+	height: 15vh;
+	width: 50vw;
+}
+
+.header-left {
+	height: 15vh;
+	width: 50vw;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	color: #fed136;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 5vw;
 }
