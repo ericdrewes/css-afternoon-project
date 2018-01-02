@@ -1,10 +1,16 @@
 .App {
   text-align: center;
-  background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg)
-    no-repeat center center;
+
   height: 100vh;
   width: 100vw;
   background-size: cover;
+  margin-bottom: 0px;
+}
+
+.background {
+  background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg)
+  no-repeat center center;
+  height: 70vh;
 }
 
 .App-header {
@@ -61,8 +67,10 @@ img {
   height: 10vw;
 }
 
+
+
 .services {
-  margin-top: 570px;
+  margin-top: 100px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -128,15 +136,14 @@ img {
 
 .text {
   color: #868e96;
+  font-style: italic;
 }
 
-.portfolio {
-  display: flex;
-  /* flex-direction: coulmn; */
-}
+
 
 .page-two {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   height: 100px;
@@ -154,8 +161,8 @@ img {
 .row-pics {
   display: flex;
   flex-wrap: wrap;
-  
-  flex-direction:center
+
+  flex-direction:center;
   height: 100vh;
   width: 80%;
   margin: auto;
@@ -194,4 +201,36 @@ img {
   width: 350px;
   height: 250px;
   margin: 20px 10px, 0, 10px;
+}
+
+.row-pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90vw;
+  justify-content: center;
+}
+
+.icon {
+  color: white;
+  font-size: 50px;
+}
+
+.portfolio-intro {
+  font-style: italic;
+  color: grey;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .page1info {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

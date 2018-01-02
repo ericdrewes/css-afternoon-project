@@ -36,15 +36,17 @@ ul {
 	width: 50vw;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 30px;
+	font-weight: bold;
 	color: #fed136;
 	display: flex;
-	margin-right: 5px;
+	margin-left: 200px;
 	justify-content: flex-start;
 }
 
 .hide {
 	display: flex;
-	background: blue;
+	background: #FECA30;
+	
 	position:  flexend;
 	height: 50px;
 	width: 50px;
