@@ -65,6 +65,7 @@ img {
 
 .page1 {
   height: 10vw;
+  margin-bottom: 10vh;
 }
 
 
@@ -94,6 +95,7 @@ img {
   height: 47vh;
   /*background: gray;*/
   width: 100%;
+  margin-bottom: 10vh;
 }
 
 .yellow-circle {
